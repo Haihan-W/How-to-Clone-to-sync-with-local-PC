@@ -1,9 +1,11 @@
-# How-to-Clone-to-sync-with-local-PC
+# If you create NEW repo in remote side(GITHUB), want to create the same one in local-- use CLONE: 
 1. under repo (topic) name, click 'clone and download'
 2. copy SSH link
 3. open git.cmd in PC
 4. type 'git clone' then paste SSH link
-5. enter password--> folder named as file name(e.g. hello-world) was added to haiha folder
+5. enter password--> then a folder named as repo name(e.g. hello-world) was added to the !!!current directory!!! in your local PC. 
+(TO check dir: open terminal, type 'pwd';
+ TO change directory where repo will be cloned, type cd <desired directory>)
 
 6. To confirm, type 'cd hello-world' to confirm direction to hello-world folder
 7. type 'dir', can observe file pathway to that. DONE!
