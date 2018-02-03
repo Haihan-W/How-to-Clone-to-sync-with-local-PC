@@ -4,7 +4,7 @@
 3. open git.cmd in PC
 4. Choose which folder in which you want to add Cloned repo-- cloned repo will always be added to !!!current directory!!! in your local PC.
   -TO check current dir: open terminal, type 'pwd';
-  -TO change current directory to where repo will be cloned and stored in, type cd <desired directory> 
+  -TO change current directory to where repo will be cloned and stored in, type cd [desired directory] 
   -TO make a new dir where repo will be cloned and stored in, use mkdir
 
 5. type 'git clone' then paste [SSH link]
@@ -19,7 +19,7 @@
 
 # How to check if the local has non-sync files compared to online github under same repository and push changes to update online github repo. That is when you create or edit the file locally under folder of repo, and want to sync changes online. 
 
-0. cd <pathway to your repo directory in local PC>
+0. cd [pathway to your repo directory in local PC]
 1. check status: type 'git status'--> unsynced file will be marked as red
 2. ADD:if want to add all unsynced file to online, type  'git add -A .' (then if you type git status again, there will be no red file)
 3. COMMIT: add message to your commit: git commit -m "type your message here"
