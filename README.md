@@ -7,7 +7,7 @@
   -TO change current directory to where repo will be cloned and stored in, type cd <desired directory> 
   -TO make a new dir where repo will be cloned and stored in, use mkdir
 
-5. type 'git clone' then paste <SSH link>
+5. type 'git clone' then paste [SSH link]
 6. enter password--> then a folder named as repo name(e.g. hello-world) was added to the folder in Step 4 in your local PC. 
 
 7. To dir to that repo, type 'cd hello-world'
