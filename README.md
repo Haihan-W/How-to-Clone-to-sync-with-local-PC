@@ -19,6 +19,8 @@
 
 # How to check if the local has non-sync files compared to online github under same repository and push changes to update online github repo. That is when you create or edit the file locally under folder of repo, and want to sync changes online. 
 
+NOTE: 
+BEFORE 0. If you have changed remote side and local repo hasn't been synced yet, you need git pull to sync local with remote first (see next #), then go to step 0 below!!!!!!
 0. cd [pathway to your repo directory in local PC]
 1. check status: type 'git status'--> unsynced file will be marked as red
 2. ADD:if want to add all unsynced file to online, type  'git add -A .' (then if you type git status again, there will be no red file)
