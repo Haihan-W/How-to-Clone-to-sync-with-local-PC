@@ -1,7 +1,7 @@
 # If you create NEW repo in remote side(GITHUB), want to create the same one in local-- use CLONE: 
 1. under repo (topic) name, click 'clone and download'
 2. copy SSH link
-3. open git.cmd in PC
+3. open git.bash in PC
 4. Choose which folder in which you want to add Cloned repo-- cloned repo will always be added to !!!current directory!!! in your local PC.
   -TO check current dir: open terminal, type 'pwd';
   -TO change current directory to where repo will be cloned and stored in, type cd [desired directory] 
