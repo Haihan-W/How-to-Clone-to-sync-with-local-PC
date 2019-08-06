@@ -4,7 +4,9 @@
 3. open git.bash in PC
 4. Choose which folder in which you want to add Cloned repo-- cloned repo will always be added to !!!current directory!!! in your local PC.
   -TO check current dir: open terminal, type 'pwd';
-  -TO change current directory to where repo will be cloned and stored in, type cd [desired directory] 
+  
+  -TO change current directory to where repo will be cloned and stored in, type cd [desired directory] You can type cd[space] and drag the desired directory folder to git bash terminal to avoid typing the directory
+  
   -TO make a new dir where repo will be cloned and stored in, use mkdir
 
 5. type 'git clone' then paste [SSH link]
