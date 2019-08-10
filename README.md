@@ -28,7 +28,7 @@ NOTE:
 
 0.1. cd [pathway to your repo directory in local PC]
 
-0.2. Bypass large files before first time git commit/push: .gitignore  -> can create .gitignore file to ignore certain file types (e.g. *.csv)
+0.2. Bypass large files before first time git commit/push: .gitignore  -> can create .gitignore file to ignore certain files/folders/file types (e.g. *.csv)
   - Github only can allow 100MB max per file to be git pushed to remote repo(github). 
   - Some local files like .csv files, .dat files, .zip files, ... are large sized files since they store large amount of data.
   - We usually ignore these types of files since if file size over limit above, git push will be rejected.
