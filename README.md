@@ -23,11 +23,21 @@
 # How to check if the local has non-sync files compared to online github under same repository and push changes to update online github repo. That is when you create or edit the file locally under folder of repo, and want to sync changes online. 
 
 NOTE: 
-BEFORE 0. If you have changed remote side and local repo hasn't been synced yet, you need git pull to sync local with remote first (see next #), then go to step 0 below!!!!!!
-0. cd [pathway to your repo directory in local PC]
+
+0. If you have changed remote side and local repo hasn't been synced yet, you need git pull to sync local with remote first (see next #), then go to step 0.1 below!!!!!!
+
+0.1. cd [pathway to your repo directory in local PC]
+
+0.2. Bypass large files before first time git commit/push: .gitignore  -> can create .gitignore file to ignore certain file types (e.g. *.csv)
+  - Github only can allow 100MB max per file to be git pushed to remote repo(github). 
+  - Some local files like .csv files, .dat files, .zip files, ... are large sized files since they store large amount of data.
+  - We usually ignore these types of files since if file size over limit above, git push will be rejected.
+  - Method to realize above: using .gitignore, links: https://stackoverflow.com/questions/10744305/how-to-create-a-gitignore-file
+  - .gitignore file example: https://coursework.vschool.io/create-a-gitignore/
 1. check status: type 'git status'--> unsynced file will be marked as red
 2. ADD:if want to add all unsynced file to online, type  'git add -A .' (then if you type git status again, there will be no red file)
 3. COMMIT: add message to your commit: git commit -m "type your message here"
+3.5 Undo last COMMIT: git reset HEAD^ --> return to untrack status (i.e. before "git add")
 4. PUSH: type 'git push', then enter password as prompt. DONE! (desired file pushed and synced online)
 
 -----------------
