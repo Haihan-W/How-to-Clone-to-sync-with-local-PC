@@ -25,7 +25,9 @@
 NOTE: 
 
 0. If you have changed remote side and local repo hasn't been synced yet, you need git pull to sync local with remote first (see next #), then go to step 0.1 below!!!!!!
+
 (use git bash exe or git cmd exe) -> I usually stored in program data -> git folder and created shortcut to windows startApp so that I can find them in windows search bar
+
 0.1. cd [pathway to your repo directory in local PC]
 
 0.2. Bypass large files before first time git commit/push: .gitignore  -> can create .gitignore file to ignore certain files/folders/file types (e.g. *.csv)
