@@ -39,6 +39,7 @@ NOTE:
 3. COMMIT: add message to your commit: git commit -m "type your message here"
 
 3.5 Undo last COMMIT: git reset HEAD^ --> return to untrack status (i.e. before "git add")
+
 4. PUSH: type 'git push', then enter password as prompt. DONE! (desired file pushed and synced online)
 
 -----------------
