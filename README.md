@@ -37,6 +37,7 @@ NOTE:
 1. check status: type 'git status'--> unsynced file will be marked as red
 2. ADD:if want to add all unsynced file to online, type  'git add -A .' (then if you type git status again, there will be no red file)
 3. COMMIT: add message to your commit: git commit -m "type your message here"
+
 3.5 Undo last COMMIT: git reset HEAD^ --> return to untrack status (i.e. before "git add")
 4. PUSH: type 'git push', then enter password as prompt. DONE! (desired file pushed and synced online)
 
